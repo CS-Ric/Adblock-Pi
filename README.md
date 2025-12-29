@@ -16,6 +16,9 @@ across all devices including mobile apps and smart TVs.
 - MicroSD card (16GB+)
 - Ethernet or Wi-Fi
 
+## Raspberry Pi OS is installed using Raspberry Pi Imager.
+All remaining setup is performed via command-line automation.
+
 ## Installation
 ```bash
 git clone https://github.com/yourusername/household-pi-adblock.git
