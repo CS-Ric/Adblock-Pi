@@ -38,6 +38,21 @@ sudo ./scripts/install_adguard.sh
 After installation, access the AdGuard Home dashboard at:
 http://"raspberry-pi-ip":3000
 
+## Initial AdGuard Home Setup
+
+After installation, AdGuard Home requires a one-time web-based setup.
+
+Key steps include:
+- Creating an admin user
+- Selecting DNS listening interfaces
+- Choosing upstream DNS providers
+- Applying blocklists and security filters
+
+Once configured, set your router’s DNS server to point to the Raspberry Pi
+to enable network-wide filtering.
+
+
+
 
 ## Network Architecture
 
