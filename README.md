@@ -1,4 +1,4 @@
-# Household Pi AdBlock (AdGuard Home)
+# AdBlock-Pi (AdGuard Home)
 
 A Raspberry Pi–based, network-wide ad blocking solution using **AdGuard Home**.
 Designed for home networks to block ads, trackers, and malicious domains across
@@ -74,3 +74,9 @@ sudo ./scripts/uninstall_adguard.sh
 
 Note: If this device was configured as your router DNS,
 you must manually update your router settings.
+
+
+
+*For detailed configuration options, refer to the official AdGuard Home documentation.
+
+
