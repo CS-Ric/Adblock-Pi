@@ -27,9 +27,6 @@ all devices — including mobile apps and smart TVs — without installing clien
 - All remaining setup is performed via **command-line automation**
 
 ---
----
-## After installation, access the AdGuard Home dashboard at:
-http://"raspberry-pi-ip":3000
 
 ## Installation (Native)
 ```bash
@@ -37,4 +34,28 @@ git clone https://github.com/yourusername/household-pi-adblock.git
 cd household-pi-adblock
 chmod +x scripts/install_adguard.sh
 sudo ./scripts/install_adguard.sh
-  
+```
+After installation, access the AdGuard Home dashboard at:
+http://"raspberry-pi-ip":3000
+
+
+## Network Architecture
+
+The diagram below shows how DNS traffic is routed through AdGuard Home
+to provide network-wide ad and tracker blocking.
+
+![Network Diagram](docs/network-diagram.png)
+
+
+
+## Uninstall
+
+To completely remove AdGuard Home from the system:
+
+```bash
+chmod +x scripts/uninstall_adguard.sh
+sudo ./scripts/uninstall_adguard.sh
+```
+
+Note: If this device was configured as your router DNS,
+you must manually update your router settings.
