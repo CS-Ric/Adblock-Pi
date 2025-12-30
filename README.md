@@ -29,7 +29,7 @@ all devices — including mobile apps and smart TVs — without installing clien
 ---
 ---
 ## After installation, access the AdGuard Home dashboard at:
-http://<raspberry-pi-ip>:3000
+http://"raspberry-pi-ip":3000
 
 ## Installation (Native)
 ```bash
@@ -37,3 +37,4 @@ git clone https://github.com/yourusername/household-pi-adblock.git
 cd household-pi-adblock
 chmod +x scripts/install_adguard.sh
 sudo ./scripts/install_adguard.sh
+  
